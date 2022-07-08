@@ -12,7 +12,7 @@ The course will combine theory with hands-on sessions based on the open-source l
 ## Tutors
 
 [Daniele Nerini](https://github.com/dnerini) - [Seppo Pulkkinen](https://github.com/pulkkins) - [Andres Perez Hortal](https://github.com/aperezhortal) - 
-[Loris Foresti](https://github.com/loforest) - [Ruben Imhoff](https://github.com/RubenImhoff) - [Jenna Ritvje](https://github.com/ritvje) -
+[Loris Foresti](https://github.com/loforest) - [Ruben Imhoff](https://github.com/RubenImhoff) - [Jenna Ritvanen](https://github.com/ritvje) -
 [Lesley De Cruz](https://github.com/ladc) - Aitor Atencia - Alan Seed
 
 # Program
