@@ -5,7 +5,17 @@ This section lists small issues or improvements to tackle during the hands-on ac
 ## Issues
 
 1. [Add tests](#add-tests)
-2. [Code improvements](#code-improvements)
+   - [Issue 1: Test that a ValueError exception is raised when the input array contains NaNs](#issue-2-test-that-input-arrays-with-more-than-2-dimensions-raise-a-valueerror-exception)
+   - [Issue 2: Test that input arrays with more than 2 dimensions raise a ValueError exception](#issue-2-test-that-input-arrays-with-more-than-2-dimensions-raise-a-valueerror-exception)
+   - [Issue 3: Test that a 1D-array with the coordinates' scale is accepted](#issue-3-test-that-a-1d-array-with-the-coordinates-scale-is-accepted)
+   - [Issue 4: Test that a ValueError exception is raised when the input array contains NaNs](#issue-4-test-that-a-valueerror-exception-is-raised-when-the-input-array-contains-nans)
+   - [Issue 5: Test that input arrays with more than 2 dimensions raise a ValueError exception](#issue-5-test-that-input-arrays-with-more-than-2-dimensions-raise-a-valueerror-exception)
+   - [Issue 6: Test that input arrays with incorrect dimensions raise a ValueError exception](#issue-6-test-that-input-arrays-with-incorrect-dimensions-raise-a-valueerror-exception)
+   - [Issue 7: Test that passing the timesteps raises a ValueError exception if they are not sorted in ascending order](#issue-7-test-that-passing-the-timesteps-raises-a-valueerror-exception-if-they-are-not-sorted-in-ascending-order)
+
+3. [Code improvements](#code-improvements)
+
+   - [Issue 8: Improve the get_method interface from the pysteps.verification.interface.py module](#issue-8-improve-the-get_method-interface-from-the-pystepsverificationinterfacepy-module)
 
 
 ## Add tests
@@ -154,7 +164,7 @@ with pytest.raises(ValueError):
 
 # Code improvements 
 
-## Issue 8: Improve the `get_method` interface from the `pysteps/verification/interface.py` module.
+## Issue 8: Improve the get_method interface from the pysteps.verification.interface.py module
 
 The `get_method` interface has a large number of nested if conditions. Some of these conditions are evaluated using the following syntax (starting from line 217): `if name in ["score_name"]:`
 
