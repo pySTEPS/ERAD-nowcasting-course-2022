@@ -5,7 +5,7 @@ This section lists small issues or improvements to tackle during the hands-on ac
 ## Issues
 
 1. [Add tests](#add-tests)
-   - [Issue 1: Test that a ValueError exception is raised when the input array contains NaNs](#issue-2-test-that-input-arrays-with-more-than-2-dimensions-raise-a-valueerror-exception)
+   - [Issue 1: Test that a ValueError exception is raised when the input array contains NaNs](#issue-1-test-that-a-valueerror-exception-is-raised-when-the-input-array-contains-nans)
    - [Issue 2: Test that input arrays with more than 2 dimensions raise a ValueError exception](#issue-2-test-that-input-arrays-with-more-than-2-dimensions-raise-a-valueerror-exception)
    - [Issue 3: Test that a 1D-array with the coordinates' scale is accepted](#issue-3-test-that-a-1d-array-with-the-coordinates-scale-is-accepted)
    - [Issue 4: Test that a ValueError exception is raised when the input array contains NaNs](#issue-4-test-that-a-valueerror-exception-is-raised-when-the-input-array-contains-nans)
