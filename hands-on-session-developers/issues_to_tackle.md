@@ -13,9 +13,20 @@ This section lists small issues or improvements to tackle during the hands-on ac
    - [Issue 6: Test that input arrays with incorrect dimensions raise a ValueError exception](#issue-6-test-that-input-arrays-with-incorrect-dimensions-raise-a-valueerror-exception)
    - [Issue 7: Test that passing the timesteps raises a ValueError exception if they are not sorted in ascending order](#issue-7-test-that-passing-the-timesteps-raises-a-valueerror-exception-if-they-are-not-sorted-in-ascending-order)
 
-3. [Code improvements](#code-improvements)
+2. [Small code-refactorings](#small-code-refactorings) 
 
    - [Issue 8: Improve the get_method interface from the pysteps.verification.interface.py module](#issue-8-improve-the-get_method-interface-from-the-pystepsverificationinterfacepy-module)
+   
+   - [Issue 9: Replace collections.abc.Iterable by an explicit import of the Iterable class in detcatscores module](#issue-9-replace-collectionsabciterable-by-an-explicit-import-of-the-iterable-class-in-detcatscores-module)
+   - [Issue 10: Replace collections.abc.Iterable by an explicit import of the Iterable class in the detcontscores module](#issue-10-replace-collectionsabciterable-by-an-explicit-import-of-the-iterable-class-in-the-detcontscores-module)
+
+3. [Replace old style string formatting (% Operator) with f-strings](#replace-old-style-string-formatting-operator-with-f-strings)
+
+   - [Issue 11: Replace old style string formatting (% operator) with f-strings in pysteps.utils.tapering module](#issue-11-replace-old-style-string-formatting-operator-with-f-strings-in-pystepsutilstapering-module)
+   - [Issue 12: Replace old style string formatting (% operator) with f-strings in pysteps.blending.steps module](#-issue-12-replace-old-style-string-formatting-operator-with-f-strings-in-pystepsblendingsteps-module)
+   - [Issue 13: Replace old style string formatting (% operator) with f-strings in pysteps.utils.spectral module](#issue-13-replace-old-style-string-formatting-operator-with-f-strings-in-pystepsutilsspectral-module)
+   - [Issue 14: Replace old style string formatting (% operator) with f-strings in pysteps.io.archive module](#issue-14-replace-old-style-string-formatting-operator-with-f-strings-in-pystepsioarchive-module)
+   - [Issue 15: Replace old style string formatting (% operator) with f-strings in pysteps.utils.cleansing module](#issue-15-replace-old-style-string-formatting-operator-with-f-strings-in-pystepsutilscleansing-module)
 
 
 ## Add tests
@@ -30,7 +41,7 @@ We have prepared the code snippets to test this functionality. Still, unfortunat
 **Suggestion**: Use self-explanatory names for the test functions. E.g.: `test_my_function_raises_exeption_with_nans`
 
 
-Here is a list of tests (and the corresponding testing snippet) that needs to be added: 
+**Here is a list of tests (and the corresponding testing snippet) that needs to be added:** 
 
 ### 1. `pysteps.utils.cleansing.decluster` function
 
@@ -162,11 +173,90 @@ with pytest.raises(ValueError):
     extrapolate(precip, velocity, not_ascending_timesteps)
 ````
 
-# Code improvements 
+## Small code-refactorings 
 
-## Issue 8: Improve the get_method interface from the pysteps.verification.interface.py module
+**Here is a list of issues involving small code refactorings:** 
+
+### Issue 8: Improve the get_method interface from the pysteps.verification.interface.py module
 
 The `get_method` interface has a large number of nested if conditions. Some of these conditions are evaluated using the following syntax (starting from line 217): `if name in ["score_name"]:`
 
-These can be rewritten them using a straightforward comparison: `if name == "score_name":` (without using the "in" operation).
+These should be rewritten them using the equality comparison: `if name == "score_name":` (i.e., without using the "in" operation).
 
+### Issue 9: Replace collections.abc.Iterable by an explicit import of the Iterable class in detcatscores module
+
+The `pysteps/verification/detcatscores.py` module first imports the `collections` module, and uses the `Iterable` class by accessing the module as `collections.abc.Iterable`. For example:
+```python
+import collections 
+
+a = list()
+if isinstance(a, collections.abc.Iterable):
+   print("It is an iterable!")
+```
+The code can be made shorted if by explicit importing `Iterable` from the `collections` module.
+```python
+from collections.abc import Iterable 
+
+a = list()
+if isinstance(a, Iterable):
+   print("It is an iterable!")
+```
+
+Lines 129 and 324 needs to be modified. Don't forget the update the `collections` import at the top of the file.
+
+### Issue 10: Replace collections.abc.Iterable by an explicit import of the Iterable class in the detcontscores module
+
+Same as [Issue 9](#issue-9-replace-collectionsabciterable-by-an-explicit-import-of-the-iterable-class-in-detcatscores-module) but for the detcontscores module. The `pysteps/verification/detcontscores.py` module first imports the `collections` module, and uses the `Iterable` class by accessing the module as `collections.abc.Iterable`.
+
+Lines 134, 244, 523, 660, and 714 needs to be modified. Don't forget the update the `collections` import at the top of the file.
+
+## Replace old style string formatting (% Operator) with f-strings
+
+We would like to improve the code style by replacing the old style string formatting using the `%` operator with the f-strings" style that is a little less verbose and more readable.
+
+For example, we want to replace this: 
+```python
+value1=10
+value2=10
+
+# Old style
+my_old_formatted_string = "Value1 is:  %d" % value1
+my_old_formatted_string2 = "Value1,Value2: (%d,%d)" % value1,value2
+
+"X.shape=%d,%d , " % (X.shape[0], X.shape[1])
+
+```
+with this
+```python
+value1=10
+value2=10
+
+# f-string style
+my_old_formatted_string = f"Value1 is: {value1}"
+my_old_formatted_string2 = f"Value1,Value2: ({value1},{value2})" % value1,value2
+```
+
+### Issue 11: Replace old style string formatting (% operator) with f-strings in pysteps.utils.tapering module
+
+The `pysteps/utils/tapering.py` file contains a few lines of code using the old formatting (% operator).
+They need to be replaced by the f-strings style.
+
+### Issue 12: Replace old style string formatting (% operator) with f-strings in pysteps.blending.steps module
+
+The `pysteps/pysteps/blending/steps.py` file contains a few lines of code using the old formatting (% operator).
+They need to be replaced by the f-strings style.
+
+### Issue 13: Replace old style string formatting (% operator) with f-strings in pysteps.utils.spectral module
+
+The `pysteps/utils/spectral.py` file contains a few lines of code using the old formatting (% operator).
+They need to be replaced by the f-strings style.
+
+### Issue 14: Replace old style string formatting (% operator) with f-strings in pysteps.io.archive module
+
+The `pysteps/io/archive.py` file contains a few lines of code using the old formatting (% operator).
+They need to be replaced by the f-strings style.
+
+### Issue 15: Replace old style string formatting (% operator) with f-strings in pysteps.utils.cleansing module
+
+The `pysteps/utils/cleansing.py` file contains a few lines of code using the old formatting (% operator).
+They need to be replaced by the f-strings style.
