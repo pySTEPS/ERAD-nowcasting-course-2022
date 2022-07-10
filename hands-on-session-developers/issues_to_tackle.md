@@ -22,11 +22,11 @@ This section lists small issues or improvements to tackle during the hands-on ac
 
 3. [Replace old style string formatting (% Operator) with f-strings](#replace-old-style-string-formatting-operator-with-f-strings)
 
-   - [Issue 11: Replace old style string formatting (% operator) with f-strings in pysteps.utils.tapering module](#issue-11-replace-old-style-string-formatting-operator-with-f-strings-in-pystepsutilstapering-module)
-   - [Issue 12: Replace old style string formatting (% operator) with f-strings in pysteps.blending.steps module](#-issue-12-replace-old-style-string-formatting-operator-with-f-strings-in-pystepsblendingsteps-module)
-   - [Issue 13: Replace old style string formatting (% operator) with f-strings in pysteps.utils.spectral module](#issue-13-replace-old-style-string-formatting-operator-with-f-strings-in-pystepsutilsspectral-module)
-   - [Issue 14: Replace old style string formatting (% operator) with f-strings in pysteps.io.archive module](#issue-14-replace-old-style-string-formatting-operator-with-f-strings-in-pystepsioarchive-module)
-   - [Issue 15: Replace old style string formatting (% operator) with f-strings in pysteps.utils.cleansing module](#issue-15-replace-old-style-string-formatting-operator-with-f-strings-in-pystepsutilscleansing-module)
+   - [Issue 11: Replace old style string formatting (% operator) with f-strings in pysteps.utils.tapering module](#issue-11-replace-old-style-string-formatting--operator-with-f-strings-in-pystepsutilstapering-module)
+   - [Issue 12: Replace old style string formatting (% operator) with f-strings in pysteps.blending.steps module](#issue-12-replace-old-style-string-formatting--operator-with-f-strings-in-pystepsblendingsteps-module)
+   - [Issue 13: Replace old style string formatting (% operator) with f-strings in pysteps.utils.spectral module](#issue-13-replace-old-style-string-formatting--operator-with-f-strings-in-pystepsutilsspectral-module)
+   - [Issue 14: Replace old style string formatting (% operator) with f-strings in pysteps.io.archive module](#issue-14-replace-old-style-string-formatting--operator-with-f-strings-in-pystepsioarchive-module)
+   - [Issue 15: Replace old style string formatting (% operator) with f-strings in pysteps.utils.cleansing module](#issue-15-replace-old-style-string-formatting--operator-with-f-strings-in-pystepsutilscleansing-module)
 
 
 ## Add tests
