@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-30T11:07:26.182Z" agent="5.0 (X11)" etag="hUUv3ZY0xfCXFTyRlAgK" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-30T14:57:20.590Z" agent="5.0 (X11)" etag="KHysmRtlCurO1Dd1pUhj" version="20.2.2" type="github">
   <diagram id="2dL3of6dWHD_wACcAEE4" name="Page-1">
     <mxGraphModel dx="1292" dy="723" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -341,7 +341,7 @@
           <mxGeometry x="312" y="516.75" width="15" height="15" as="geometry" />
         </mxCell>
         <mxCell id="xCn_pxtUZpE1uZEFmkVX-12" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Arial&quot;&gt;&lt;span style=&quot;&quot;&gt;Optional exercises&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="201.69" y="480" width="104.75" height="22" as="geometry" />
+          <mxGeometry x="201.12" y="485" width="104.75" height="22" as="geometry" />
         </mxCell>
         <mxCell id="xCn_pxtUZpE1uZEFmkVX-20" value="&lt;div align=&quot;left&quot;&gt;&lt;font size=&quot;1&quot; face=&quot;Arial&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;Block 3: Optical flow and extrapolation&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="19" y="521" width="147" height="35" as="geometry" />
@@ -354,6 +354,12 @@
         </mxCell>
         <mxCell id="xCn_pxtUZpE1uZEFmkVX-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=10;strokeColor=none;fillColor=#0008FF;" vertex="1" parent="1">
           <mxGeometry x="486" y="437.75" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="xCn_pxtUZpE1uZEFmkVX-25" value="&lt;font face=&quot;Arial&quot;&gt;Use Cookiecutter to implement a data importer plugin&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="549.56" y="401" width="113.62" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="xCn_pxtUZpE1uZEFmkVX-26" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Arial&quot;&gt;&lt;span style=&quot;&quot;&gt;Optional exercises&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="554" y="379" width="104.75" height="22" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
