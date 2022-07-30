@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-30T10:48:24.556Z" agent="5.0 (X11)" etag="y0Nqwm-470KMsh4_aORp" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-30T11:07:26.182Z" agent="5.0 (X11)" etag="hUUv3ZY0xfCXFTyRlAgK" version="20.2.2" type="github">
   <diagram id="2dL3of6dWHD_wACcAEE4" name="Page-1">
-    <mxGraphModel dx="1243" dy="701" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1292" dy="723" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -316,10 +316,10 @@
         <mxCell id="xCn_pxtUZpE1uZEFmkVX-2" value="&lt;div align=&quot;left&quot;&gt;&lt;font size=&quot;1&quot; face=&quot;Arial&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;Block 2: Reading, transforming and visualizing input data&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="24" y="389.5" width="212" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="xCn_pxtUZpE1uZEFmkVX-3" value="&lt;font size=&quot;1&quot; face=&quot;Arial&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;Block 3: Nowcasting methods&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="xCn_pxtUZpE1uZEFmkVX-3" value="&lt;font size=&quot;1&quot; face=&quot;Arial&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;Block 4: Nowcasting methods&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="19" y="690" width="209" height="21.5" as="geometry" />
         </mxCell>
-        <mxCell id="xCn_pxtUZpE1uZEFmkVX-4" value="&lt;div align=&quot;left&quot;&gt;&lt;font size=&quot;1&quot; face=&quot;Arial&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;Block 4: Other pysteps functionality&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="xCn_pxtUZpE1uZEFmkVX-4" value="&lt;div align=&quot;left&quot;&gt;&lt;font size=&quot;1&quot; face=&quot;Arial&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;Block 5: Other pysteps functionality&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="19" y="859.5" width="253" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xCn_pxtUZpE1uZEFmkVX-6" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Times New Roman;fontSize=18;dashed=1;" edge="1" parent="1">
@@ -343,7 +343,7 @@
         <mxCell id="xCn_pxtUZpE1uZEFmkVX-12" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Arial&quot;&gt;&lt;span style=&quot;&quot;&gt;Optional exercises&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="201.69" y="480" width="104.75" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="xCn_pxtUZpE1uZEFmkVX-20" value="&lt;div align=&quot;left&quot;&gt;&lt;font size=&quot;1&quot; face=&quot;Arial&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;Block 2: Optical flow and extrapolation&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="xCn_pxtUZpE1uZEFmkVX-20" value="&lt;div align=&quot;left&quot;&gt;&lt;font size=&quot;1&quot; face=&quot;Arial&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;Block 3: Optical flow and extrapolation&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="19" y="521" width="147" height="35" as="geometry" />
         </mxCell>
         <mxCell id="xCn_pxtUZpE1uZEFmkVX-21" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1">
