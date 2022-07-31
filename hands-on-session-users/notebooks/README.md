@@ -1,0 +1,3 @@
+# Notebooks
+
+This folder contains Colab notebooks for each exercise block shown [here](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/blob/hands-on-users/hands-on-session-users/session_overview.pdf). The notebooks are designed to be run sequentially (i.e. running each notebook will run the previous ones). When running these notebooks, please make a copy of them to your personal Google Drive.
