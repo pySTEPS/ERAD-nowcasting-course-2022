@@ -1,4 +1,4 @@
-# Exercise 1: Read and visualize input data
+# Exercise 2: Read and visualize input data
 
 The purpose of this simple exercise is to download the pysteps example data and read and plot it using the tools implemented in pysteps.
 
