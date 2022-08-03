@@ -28,6 +28,8 @@ This section lists small issues or improvements to tackle during the hands-on ac
    - [Issue 14: Replace old style string formatting (% operator) with f-strings in pysteps.io.archive module](#issue-14-replace-old-style-string-formatting--operator-with-f-strings-in-pystepsioarchive-module)
    - [Issue 15: Replace old style string formatting (% operator) with f-strings in pysteps.utils.cleansing module](#issue-15-replace-old-style-string-formatting--operator-with-f-strings-in-pystepsutilscleansing-module)
 
+4. [Check input arguments](#check-input-arguments)
+
 
 ## Add tests
 
@@ -260,3 +262,16 @@ They need to be replaced by the f-strings style.
 
 The `pysteps/utils/cleansing.py` file contains a few lines of code using the old formatting (% operator).
 They need to be replaced by the f-strings style.
+
+## Check input arguments
+
+Even if documented in the docstrings, inputs that are left unchecked
+can produce obscure error messages when things go wrong.
+The following methods would benefit from an explicit check of their input arguments.
+Do not forget to include the corresponding tests!
+
+### Issue 16: Check arguments of pysteps.downscaling.rainfarm.downscale() method
+
+The arguments to the `downscale()` method in the `pysteps/downscaling/rainfarm.py` file
+are currently not checked. Based on the docstrings, include a check which will raise an exception
+if it fails.
