@@ -1,6 +1,6 @@
 # Pre-requisites for the “hands-on session” for users
 
-The exercises in this session will be done by using Google Colab notebooks. Therefore the attendees are expected to create Google account before the session and copy the example notebooks to their Google Drive. The material will be provided in the [GitHub repository](https://github.com/pySTEPS/ERAD-nowcasting-course-2022).
+The exercises in this session will be done by using Google Colab notebooks. Therefore the attendees are expected to create a Google account before the session and copy the example notebooks to their Google Drive. The material will be provided in the [GitHub repository](https://github.com/pySTEPS/ERAD-nowcasting-course-2022).
 
 ## 1. Create a Google account
 
@@ -8,7 +8,7 @@ If you don't yet have a Google account, create it [here](https://accounts.google
 
 ## 2. Install Google Chrome
 
-For the best experience, we recommend using [Google Chrome](https://www.google.com/chrome) for this session. In many Linux distributions, the browser is known as [Chromium](https://www.chromium.org/Home), and it can be installed through the distribution's package management system. [Firefox](https://www.mozilla.org), [Microsoft Edge](http://www.microsoft.com/en-us/windows/microsoft-edge) and [Safari](http://www.apple.com/safari) should also work, but they might not support all functionality needed for using the Google services.
+For the best experience, we recommend using [Google Chrome](https://www.google.com/chrome) for this session. In many Linux distributions, the browser is known as [Chromium](https://www.chromium.org/Home), and it can be installed through the distribution's package management system. [Firefox](https://www.mozilla.org), [Microsoft Edge](http://www.microsoft.com/en-us/windows/microsoft-edge) and [Safari](http://www.apple.com/safari) should also work, but they might not support all functionalities needed for using the Google services.
 
 ## 3. Clone GitHub Repositories and copy notebooks to Colab
 
