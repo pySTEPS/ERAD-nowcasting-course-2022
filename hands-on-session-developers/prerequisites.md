@@ -1,7 +1,7 @@
-# Pre-requisites for the “hands-on session”
+# Prerequisites for the hands-on session "developers"
 
 
-To make the most of our time during the “hands-on session,” we require that the attendants have a GitHub account, a git client installed on their personal computer, and that they are familiar with the basic git commands (`git clone`, `git add`. `git pull` ). 
+To make the most of our time during the hands-on session "developers", we require that the attendants have a GitHub account, a git client installed on their personal computer, and that they are familiar with the basic git commands (`git clone`, `git add`. `git pull` ). 
 
 The following sections contains the instructions 
 to open a GitHub account, install Git, and additional resources to refresh the git basics.
@@ -13,7 +13,7 @@ If you don’t have a GitHub account, go to https://github.com/signup and follow
 ## 2. Install a git client
 
 - [Mac OS X installation instructions](https://www.atlassian.com/git/tutorials/install-git#mac-os-x)
--[Linux installation instructions](https://www.atlassian.com/git/tutorials/install-git#linux)
+- [Linux installation instructions](https://www.atlassian.com/git/tutorials/install-git#linux)
 - [Windows installation instructions](https://www.atlassian.com/git/tutorials/install-git#windows)
 
 ## 3. Getting started with Git
