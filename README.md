@@ -28,3 +28,8 @@ The course will combine theory with hands-on sessions based on the open-source l
 | 15:30 | Coffee break                      |                        | 30'      |
 | 16:00 | Discussion "pysteps roadmap"      | Loris, Daniele         | 60'      |
 | 17:30 | End of the short course           |                        |          |
+
+# Prerequisites
+
+- [hands-on session "users"]()
+- [hands-on session "developers"](hands-on-session-developers/prerequisites.md)
