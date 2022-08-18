@@ -1,8 +1,8 @@
 # Exercise 4: Nowcasting methods
-The purpose of this exercise is to illustrate how to construct, visualize, apply verification metrics to and export a deterministic and probablistic (ensemble) nowcast using pysteps. The exercise starts with some repetition of the previous exercises to make sure that the right data is imported (exercise 1), that the data is transformerd (exercise 2) and that the motion field has been derived for the dataset (exercise 3). Then, we'll start with the construction and verification of deterministic nowcasts, followed by the construction and verification of a probabilistic nowcast.
+The purpose of this exercise is to illustrate how to construct, visualize, apply verification metrics to and export a deterministic and probablistic (ensemble) nowcast using pysteps. We'll start with the construction and verification of deterministic nowcasts, followed by the construction and verification of a probabilistic nowcast.
 
-## Import data
-First we install pysteps and load the example data by running the [helper_input_data](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/blob/hands-on-users/hands-on-session-users/notebooks/helper_input_data.ipynb) notebook. This repeats the basics of exercise 1 and 2. You can run this with the following lines: 
+## Import data and perform the pre-processing steps
+First we install pysteps and load the example data by running the [helper_input_data](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/blob/hands-on-users/hands-on-session-users/notebooks/helper_input_data.ipynb) notebook. This repeats the basics of exercise 1, 2 and 3. You can run this with the following lines: 
 
 ```
 from google.colab import drive
@@ -13,31 +13,14 @@ if not os.path.exists("/content/mnt/MyDrive"):
   drive.mount("mnt")
 %cd '/content/mnt/MyDrive/Colab Notebooks'
 # run the data notebook to load the input dataset
-%run helper_input_data.ipynb
+%run helper_nowcasting_methods.ipynb
 ```
 
-If you still have a running script, you can continue with that. It does not matter from which data provider you have imported the radar data, but *make sure that you have at least 15 time steps available (3 for the nowcasts and advection field derivation and 12 for the observations, which will be used for the forecast verification).*
+This helper notebook imports the FMI radar data, dBR transforms it and determines the motion field with the Lucas-Kanada optical flow method (see [the notebook of block 3](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/blob/hands-on-users/hands-on-session-users/notebooks/block_03_optical_flow_and_extrapolation.ipynb)). The precip data is split in a part for forecasting, called `precip_finite`, which is already dBR transformed and NaN values have been filled with a minimum value, and a part that will be used as observations (`precip_obs`) for model verification of the nowcasts. 
 
-## Pre-processing steps
-We will start with a few pre-processing steps that are the same for the deterministic and probablistic forecasts. These pre-processing steps resemble the steps from exercises 2 and 3 (so you could also continue with your scripts from those exercises). 
+The metadata corresponding to `precip_finite` is `metadata_dbr` and the metadata of `precip_obs` is `metadata`. 
 
-### Apply data transformations
-The data from FMI has already been imported after running the [helper_input_data](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/blob/hands-on-users/hands-on-session-users/notebooks/helper_input_data.ipynb) notebook. The precip data is called `precip` and the metadata is called `metadata`.
-
-- Index the last 12 timesteps from `precip` and store this as your observations (we will use this during the verification procedure). Keep the remaining timesteps for the motion field derivation and nowcasting.
-- Use a dBR transformation (or any [transformation](https://pysteps.readthedocs.io/en/latest/auto_examples/data_transformations.html#sphx-glr-auto-examples-data-transformations-py) you like) to transform the timesteps that will be used for the motion field derviation and nowcasting. 
-- If you want to use DARTS (see exercise 3) for the motion field derivation, make sure to set all NaN-values to a minimum value. For instance with: 
-```
-# Handling of NaN values has been explicitly implemented in Lucas-Kanade and VET,
-# but not in DARTS. For this reason, we set all non-finite values to the minimum
-# value before applying the optical flow.
-precip_finite = precip_dbr.copy()
-precip_finite[~np.isfinite(precip_finite)] = np.nanmin(precip_dbr)
-``` 
-
-### Determine the motion field
-Determine the motion field (pick a method from exercise 3) and visualize it.
-
+Finally the motion field variable is called `motion_field`. You can use these variables in these exercises.
 
 ## Deterministic nowcasts
 
