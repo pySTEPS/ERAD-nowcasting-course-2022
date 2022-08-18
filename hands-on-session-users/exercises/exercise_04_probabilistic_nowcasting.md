@@ -1,5 +1,5 @@
-# Exercise 4: Nowcasting methods
-The purpose of this exercise is to illustrate how to construct, visualize, apply verification metrics to and export a deterministic and probablistic (ensemble) nowcast using pysteps. We'll start with the construction and verification of deterministic nowcasts, followed by the construction and verification of a probabilistic nowcast.
+# Exercise 4: Nowcasting methods - Part 2 probabilistic nowcasting
+The purpose of this exercise is to illustrate how to construct, visualize and apply verification metrics to a probablistic (ensemble) nowcast using pysteps. 
 
 ## Import data and perform the pre-processing steps
 First we install pysteps and load the example data by running the [helper_input_data](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/blob/hands-on-users/hands-on-session-users/notebooks/helper_input_data.ipynb) notebook. This repeats the basics of exercise 1, 2 and 3. You can run this with the following lines: 
@@ -22,12 +22,9 @@ The metadata corresponding to `precip_finite` is `metadata_dbr` and the metadata
 
 Finally the motion field variable is called `motion_field`. You can use these variables in these exercises.
 
-## Deterministic nowcasts
 
-To do..
-
-## Probabilistic nowcasts
-In probabilistic nowcasting part, we will repeat the basic steps of the deterministic nowcast, but, instead of a deterministic forecast, we will construct and verify a probabilistic nowcast with 20 ensemble members. If time allows, you can also try to make a LINDA-P nowcast. We can get an estimate of the uncertainty in our forecast with a probabilistic forecast. It can, for instance, tell us what the (forecast) probability is that rainfall above a certain threshold will take place at location *x*. 
+## Construct the probabilistic nowcasts
+In this probabilistic nowcasting part, we will repeat the same basic steps of a deterministic nowcast, but, instead of a deterministic forecast, we will construct and verify a probabilistic STEPS nowcast with 20 ensemble members. If time allows, you can also try to make a LINDA-P nowcast. We can get an estimate of the uncertainty in our forecast with a probabilistic forecast. It can, for instance, tell us what the (forecast) probability is that rainfall above a certain threshold will take place at location *x*. 
 
 The first step is to make a probablistic nowcast using the STEPS approach that is explained in [the STEPS nowcast gallery example](https://pysteps.readthedocs.io/en/latest/auto_examples/plot_steps_nowcast.html#stochastic-nowcast-with-steps). You can follow this example and adjust the code where necessary to make it work for our test case.
 
