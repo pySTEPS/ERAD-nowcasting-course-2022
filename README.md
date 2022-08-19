@@ -5,7 +5,7 @@ The course will combine theory with hands-on sessions based on the open-source l
 
 **When:** August 28, 2022
 
-**Where:** Aula 5 (4th floor), CISA, Via Conturbio, CH-6600 Locarno, Switzerland (or online)
+**Where:** Aula 5 (4th floor), CISA, Via Conturbio, CH-6600 Locarno, Switzerland (or online) ([Google Maps])(https://goo.gl/maps/jegATFTYojYyMdBF6))
 
 **Registration:** [ERAD22 Academy](https://www.erad2022.ch/erad2022-academy) (registration is closed)
 
