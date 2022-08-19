@@ -31,5 +31,5 @@ The course will combine theory with hands-on sessions based on the open-source l
 
 # Prerequisites
 
-- [hands-on session "users"]()
+- [hands-on session "users"](hands-on-session-users/prerequisites.md)
 - [hands-on session "developers"](hands-on-session-developers/prerequisites.md)
