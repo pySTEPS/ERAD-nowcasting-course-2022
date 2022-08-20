@@ -31,5 +31,7 @@ The course will combine theory with hands-on sessions based on the open-source l
 
 # Prerequisites
 
+*Participants need to bring their own laptop (Linux, Windows, Mac)*. 
+Below we give more information on the things that one needs to prepare for the short course:
 - [hands-on session "users"](hands-on-session-users/prerequisites.md)
 - [hands-on session "developers"](hands-on-session-developers/prerequisites.md)
