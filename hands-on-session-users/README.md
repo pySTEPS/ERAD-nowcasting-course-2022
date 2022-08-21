@@ -4,7 +4,7 @@ This folder contains the material prepared for the hands-on session "users":
 
   * Pre-requisites for attending the session [here](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/blob/hands-on-users/hands-on-session-users/prerequisites.md)
   * Flowchart of the session [here](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/blob/hands-on-users/hands-on-session-users/session_overview.drawio), PDF version [here](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/blob/hands-on-users/hands-on-session-users/session_overview.pdf) (created with [diagrams.net](https://www.diagrams.net))
-  * The session has two sets of slides: general introduction and one slide for each exercise. Recent versions of the slides synced from Google Docs can be downloaded [here](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/tree/hands-on-session-users/hands-on-session-users/slides/introduction.pdf) and [here](...).
+  * The session has two sets of slides: general introduction and one slide for each exercise. Recent versions of the slides synced from Google Docs can be downloaded [here](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/tree/hands-on-session-users/slides/introduction.pdf) and [here](...).
 
 The hands-on exercises are divided into two parts: description of the exercise and the solutions
 
