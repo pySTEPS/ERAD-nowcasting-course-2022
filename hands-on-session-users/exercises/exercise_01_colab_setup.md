@@ -4,11 +4,14 @@ In this exercise we install pysteps in Colab. Optionally you can try to install 
 
 ## Setup Colab environment
 
-First you need to login to [Colab](https://research.google.com/colaboratory). Create a new notebook and do the following steps:
+First you need to login to [Colab](https://research.google.com/colaboratory) and create a new notebook. Installation of the pysteps dependencies can be done by using at least two approaches:
 
-  1. Install conda-colab by following the instructions at [https://pypi.org/project/condacolab](https://pypi.org/project/condacolab).
-  2. Install pysteps dependencies by using mamba. The dependencies are listed in [environment.yml](https://github.com/pySTEPS/pysteps/blob/master/environment.yml). Install also cartopy because we need it for plotting basemaps in the following exercises.
-  3. Install the [latest development version](https://github.com/pySTEPS/pysteps/tree/erad2022_short_course_fixes) of pysteps for ERAD 2022. Use pip+git, as shown [here](https://www.activestate.com/resources/quick-reads/pip-install-git).
+  1. Install all dependencies by using pip (installed in the default Colab environment).
+  2. Install conda-colab and activate the environment by following the instructions at [https://pypi.org/project/condacolab](https://pypi.org/project/condacolab). Then install pysteps dependencies by using [mamba](https://mamba.readthedocs.io/en/latest) (installed in the conda-colab environment).
+
+The dependencies are listed in [environment.yml](https://github.com/pySTEPS/pysteps/blob/master/environment.yml). Install also cartopy because we need it for plotting basemaps in the following exercises.
+
+After this, install the [latest development version](https://github.com/pySTEPS/pysteps/tree/erad2022_short_course_fixes) of pysteps. Use pip+git, as shown [here](https://www.activestate.com/resources/quick-reads/pip-install-git).
 
 ## Local installation
 
