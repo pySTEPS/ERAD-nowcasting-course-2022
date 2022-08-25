@@ -1,4 +1,4 @@
-# Exercise xx: Precipitation accumulation with advection interpolation
+# Exercise 3 (optional): Precipitation accumulation with advection interpolation
 
 The purpose of this exercise is to demonstrate the advantages of using advection-based temporal interpolation. One of the main applications of this technique is computation of precipitation accumulations, where high temporal resolution is needed.
 
