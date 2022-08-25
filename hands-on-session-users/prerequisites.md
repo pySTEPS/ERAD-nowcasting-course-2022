@@ -26,3 +26,7 @@ This step is required for running the Colab notebooks shared through the [GitHub
     # !cp ERAD-nowcasting-course-2022/hands-on-session-users/notebooks/*.ipynb 'Colab Notebooks'
 
 Now you can open the example notebooks in Colab.
+
+## 4. Download example data
+
+Downloading the example data to your Google Drive folder will take some time. To facilitate smooth running of the noteboks, you can do this before the session. The easiest way is to run the [helper notebook](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/blob/main/hands-on-session-users/notebooks/helper_setup_conda-colab.ipynb) made for this purpose.
