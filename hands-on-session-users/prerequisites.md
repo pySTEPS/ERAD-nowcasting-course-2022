@@ -12,7 +12,7 @@ For the best experience, we recommend using [Google Chrome](https://www.google.c
 
 ## 3. Clone GitHub Repositories and copy notebooks to Colab
 
-This steps is required for running the Colab notebooks shared through the [GitHub repository](https://github.com/pySTEPS/ERAD-nowcasting-course-2022). Sign in to your Google account, go to [Colab](https://colab.research.google.com/?utm_source=scs-index) and run the following commands in a new notebook.
+This step is required for running the Colab notebooks shared through the [GitHub repository](https://github.com/pySTEPS/ERAD-nowcasting-course-2022). Sign in to your Google account, go to [Colab](https://colab.research.google.com/?utm_source=scs-index) and run the following commands in a new notebook.
 
     # mount your Google drive to access it from Colab
     from google.colab import drive
@@ -20,9 +20,9 @@ This steps is required for running the Colab notebooks shared through the [GitHu
     %cd mnt/MyDrive
     # clone the repository from GitHub
     !git clone https://github.com/pySTEPS/ERAD-nowcasting-course-2022
-    # create notebook directory for ERAD 2022
-    !mkdir 'Colab Notebooks/ERAD2022'
+    # create notebook directory (if it doesn't already exist)
+    !mkdir 'Colab Notebooks'
     # copy the course notebooks to the above folder
-    # !cp ERAD-nowcasting-course-2022/hands-on-session-users/notebooks/*.ipynb 'Colab Notebooks/ERAD2022'
+    # !cp ERAD-nowcasting-course-2022/hands-on-session-users/notebooks/*.ipynb 'Colab Notebooks'
 
 Now you can open the example notebooks in Colab.
