@@ -4,7 +4,7 @@ The purpose of this exercise is to get the users acquainted with the input data 
 
 ## Install pysteps
 
-If you haven't already installed pysteps in your Colab environment, please do so by running [the first notebook](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/blob/hands-on-users/hands-on-session-users/notebooks/block_01_setup.ipynb).
+If you haven't already installed pysteps in your Colab environment, please do so by running the first notebook ([pip](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/blob/main/hands-on-session-users/notebooks/block_01_setup_pip.ipynb) or [conda-colab](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/blob/main/hands-on-session-users/notebooks/block_01_setup_conda-colab.ipynb) version).
 
 ## Read the example dataset
 

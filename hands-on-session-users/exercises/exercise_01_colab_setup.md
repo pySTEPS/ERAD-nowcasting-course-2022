@@ -13,7 +13,7 @@ The pysteps dependencies are listed in [environment.yml](https://github.com/pyST
 
 **NOTE:** When using conda-colab, you need to run the installation block first before running any other blocks. If you try to use the Runtime / "Run all" option to run everything at once, the execution will crash, but the second run will work.
 
-After this, install the [latest development version](https://github.com/pySTEPS/pysteps/tree/erad2022_short_course_fixes) of pysteps. Use pip+git, as shown [here](https://www.activestate.com/resources/quick-reads/pip-install-git).
+After this, install the [latest development version](https://github.com/pySTEPS/pysteps) of pysteps. Use pip+git, as shown [here](https://www.activestate.com/resources/quick-reads/pip-install-git).
 
 ## Download example data
 
