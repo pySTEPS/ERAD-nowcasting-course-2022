@@ -1,10 +1,10 @@
-# Exercise xx: Precipitation accumulation with advection interpolation
+# Exercise 3 (optional): Precipitation accumulation with advection interpolation
 
 The purpose of this exercise is to demonstrate the advantages of using advection-based temporal interpolation. One of the main applications of this technique is computation of precipitation accumulations, where high temporal resolution is needed.
 
 # Obtain the dataset and compute advection field
 
-Choose a one-hour precipitation rate dataset (13 composites with 5-minute time steps). You can take the one used in [exercise 3](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/blob/hands-on-users/hands-on-session-users/notebooks/block_03_optical_flow_and_extrapolation.ipynb). For computing the advection field, you can also follow this exercise.
+Choose a one-hour precipitation rate dataset (13 composites with 5-minute time steps). You can take the one used in [exercise 3](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/blob/main/hands-on-session-users/exercises/exercise_03_optical_flow_and_extrapolation.md). For computing the advection field, you can also follow that exercise.
 
 # Compute advection-interpolated precipitation fields
 
