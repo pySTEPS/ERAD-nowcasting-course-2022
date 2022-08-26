@@ -4,7 +4,7 @@ The purpose of this exercise is to illustrate how to construct, visualize and ap
 
 ## Import data and perform the pre-processing steps
 
-First we install pysteps and load the example data by running the [helper_input_data](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/blob/hands-on-users/hands-on-session-users/notebooks/helper_input_data.ipynb) notebook. This repeats the basics of exercise 1, 2 and 3. You can run this with the following lines:
+First we install pysteps and load the example data by running the [helper_input_data](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/blob/main/hands-on-session-users/notebooks/helper_input_data.ipynb) notebook. This repeats the basics of exercise 1, 2 and 3. You can run this with the following lines:
 
 ```python
 from google.colab import drive
@@ -18,7 +18,7 @@ if not os.path.exists("/content/mnt/MyDrive"):
 %run helper_nowcasting_methods.ipynb
 ```
 
-This helper notebook imports the FMI radar data, dBR transforms it and determines the motion field with the Lucas-Kanade optical flow method (see [the notebook of block 3](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/blob/hands-on-users/hands-on-session-users/notebooks/block_03_optical_flow_and_extrapolation.ipynb)). The precipitation data is split in a part for forecasting, called `precip_finite`, which is already dBR transformed and NaN values have been filled with a minimum value, and a part that will be used as observations (`precip_obs`) for model verification of the nowcasts.
+This helper notebook imports the FMI radar data, dBR transforms it and determines the motion field with the Lucas-Kanade optical flow method (see [the notebook of block 3](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/blob/main/hands-on-session-users/notebooks/block_03_optical_flow_and_extrapolation.ipynb)). The precipitation data is split in a part for forecasting, called `precip_finite`, which is already dBR transformed and NaN values have been filled with a minimum value, and a part that will be used as observations (`precip_obs`) for model verification of the nowcasts.
 
 The metadata corresponding to `precip_finite` is `metadata_dbr` and the metadata of `precip_obs` is `metadata`.
 
