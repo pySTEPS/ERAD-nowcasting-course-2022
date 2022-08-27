@@ -6,8 +6,8 @@ In this exercise we install pysteps in Colab. Optionally you can try to install 
 
 First you need to login to [Colab](https://research.google.com/colaboratory) and create a new notebook. Installation of the pysteps dependencies can be done by using at least two approaches:
 
-  1. Install all dependencies by using pip (installed in the default Colab environment).
-  2. Install conda-colab and activate the environment by following the instructions at [https://pypi.org/project/condacolab](https://pypi.org/project/condacolab). Then install pysteps dependencies by using [mamba](https://mamba.readthedocs.io/en/latest).
+  1. Install all dependencies by using [pip](https://pypi.org/project/pip) (installed in the default Colab environment).
+  2. Install [conda-colab](https://pypi.org/project/condacolab) and activate the environment by following the instructions at [https://pypi.org/project/condacolab](https://pypi.org/project/condacolab). Then install pysteps dependencies by using [mamba](https://mamba.readthedocs.io/en/latest).
 
 The pysteps dependencies are listed in [environment.yml](https://github.com/pySTEPS/pysteps/blob/master/environment.yml). Install also cartopy because we need it for plotting basemaps in the following exercises.
 
