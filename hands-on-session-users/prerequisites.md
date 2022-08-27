@@ -21,7 +21,8 @@ This step is required for running the Colab notebooks shared through the [GitHub
     # clone the repository from GitHub
     !git clone https://github.com/pySTEPS/ERAD-nowcasting-course-2022
     # create notebook directory (if it doesn't already exist)
-    !mkdir 'Colab Notebooks'
+    if not os.path.exists('Colab Notebooks'):
+        !mkdir 'Colab Notebooks'
     # copy the course notebooks to the above folder
     # !cp ERAD-nowcasting-course-2022/hands-on-session-users/notebooks/*.ipynb 'Colab Notebooks'
 
