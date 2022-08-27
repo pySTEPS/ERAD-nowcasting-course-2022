@@ -8,7 +8,7 @@ If you haven't already installed pysteps in your Colab environment, please do so
 
 ## Read the example dataset
 
-From the datasets downloaded in the [previous exercise](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/blob/main/hands-on-session-users/exercises/exercise_01_colab_setup.md), pick the "fmi" and "mch" datasets that have been tested to work with this exercise. You can use [pysteps.datasets.load_dataset](https://pysteps.readthedocs.io/en/stable/generated/pysteps.datasets.load_dataset.html#pysteps.datasets.load_dataset) for this purpose. For the mch data, choose the time period between 2015-05-15 15:50-16:50 UTC. For fmi, choose 2016-09-28 14:45-15:50 UTC. Use pysteps functions to read the time series into a numpy array and examine the metadata.
+From the datasets downloaded in the [previous exercise](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/blob/main/hands-on-session-users/exercises/exercise_01_colab_setup.md), pick either the "fmi" or "mch" dataset that have been tested to work with this exercise. You can use [pysteps.datasets.load_dataset](https://pysteps.readthedocs.io/en/stable/generated/pysteps.datasets.load_dataset.html#pysteps.datasets.load_dataset) for this purpose. For the mch data, choose the time period between 2015-05-15 15:50-16:50 UTC. For fmi, choose 2016-09-28 14:45-15:50 UTC. Use pysteps functions to read the time series into a numpy array and examine the metadata.
 
 ## Visualize the data
 
