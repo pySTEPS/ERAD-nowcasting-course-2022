@@ -19,7 +19,7 @@ The course will combine theory with hands-on sessions based on the open-source l
 
 | Time  | Content                           | Speaker                | Duration |
 |-------|-----------------------------------|------------------------|----------|
-| 08:30 | Course registration / Welcome     | Daniele                | 30'      |
+| 08:30 | Welcome / Course overview         | Daniele                | 30'      |
 | 09:00 | Lecture on operational nowcasting | Alan, Lesley           | 60'      |
 | 10:00 | Coffee break                      |                        | 30'      |
 | 10:30 | Hands-on session “users”          | Seppo, Ruben, Jenna    | 120'     |
