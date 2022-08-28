@@ -25,7 +25,7 @@ This step is required for running the Colab notebooks shared through the [GitHub
     if not os.path.exists('Colab Notebooks'):
         !mkdir 'Colab Notebooks'
     # copy the course notebooks to the above folder
-    # !cp ERAD-nowcasting-course-2022/hands-on-session-users/notebooks/*.ipynb 'Colab Notebooks'
+    !cp ERAD-nowcasting-course-2022/hands-on-session-users/notebooks/*.ipynb 'Colab Notebooks'
 
 Now you can open the example notebooks in Colab.
 
