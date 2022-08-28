@@ -15,6 +15,7 @@ For the best experience, we recommend using [Google Chrome](https://www.google.c
 This step is required for running the Colab notebooks shared through the [GitHub repository](https://github.com/pySTEPS/ERAD-nowcasting-course-2022). Sign in to your Google account, go to [Colab](https://colab.research.google.com/?utm_source=scs-index) and run the following commands in a new notebook.
 
     # mount your Google drive to access it from Colab
+    import os
     from google.colab import drive
     drive.mount("mnt")
     %cd mnt/MyDrive
