@@ -1,14 +1,15 @@
-# ERAD22 Academy: the hands-on session "users"
+# OpenSense 2025 Training School session
 
-This folder contains the material prepared for the hands-on session "users".
+This folder contains the material prepared for the hands-on session on using pysteps with opportunistic sensing data.
+The exercises are split into a folder [exercises](opensense-training-session/exercises), containing the description and steps to be taken per exercise, and a folder [notebooks](opensense-training-session/notebooks), which contain the notebooks that can be used for each exercise. The folder [notebooks](opensense-training-session/notebooks) also contains so-called helper scripts, which provide data inputs and pre-processing steps that need to be repeated (e.g. from previous exercises) and can be run directly from the main notebook for that exercise.
 
 **General information**
-
-  * Pre-requisites for attending the session [here](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/blob/hands-on-users/hands-on-session-users/prerequisites.md)
+[TO DO: adjust!]
+  * Information about the training school can be found [here](https://indico.scc.kit.edu/event/4626/overview).
   * Flowchart of the session [here](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/blob/main/hands-on-session-users/session_overview.pdf)
-  * The session has two sets of slides: general introduction ([pdf](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/tree/main/hands-on-session-users/slides/introduction.pdf), [pptx](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/tree/main/hands-on-session-users/slides/introduction.pptx)) and introduction & wrapup slides ([pdf](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/tree/main/hands-on-session-users/slides/exercises.pdf), [pptx](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/tree/main/hands-on-session-users/slides/exercises.pptx)) for the exercises
+  * The session has some PPT slides: [TO DO, change this] general introduction ([pdf](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/tree/main/hands-on-session-users/slides/introduction.pdf), [pptx](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/tree/main/hands-on-session-users/slides/introduction.pptx)) and introduction & wrapup slides ([pdf](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/tree/main/hands-on-session-users/slides/exercises.pdf), [pptx](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/tree/main/hands-on-session-users/slides/exercises.pptx)) for the exercises.
 
-The exercises are divided into five blocks:
+The exercises are divided into x blocks [TO DO, fill out later - current is copy of ERAD exercices]:
 
 1. Install pysteps in Colab: [exercise](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/blob/main/hands-on-session-users/exercises/exercise_01_colab_setup.md) and [solution 1](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/blob/main/hands-on-session-users/notebooks/block_01_setup_pip.ipynb), [solution 2](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/blob/main/hands-on-session-users/notebooks/block_01_setup_conda-colab.ipynb)
 2. Read, visualize and process input data: [exercise](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/blob/main/hands-on-session-users/exercises/exercise_02_input_data.md) and [solution](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/blob/main/hands-on-session-users/notebooks/block_02_input_data.ipynb)

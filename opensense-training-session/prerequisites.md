@@ -1,4 +1,6 @@
-# Pre-requisites for the “hands-on session” for users
+# Pre-requisites for the training session
+
+[TO DO: update with final decision!]
 
 The exercises in this session will be done by using Google Colab notebooks. Therefore the attendees are expected to create a Google account before the session and copy the example notebooks to their Google Drive. The material will be provided in the [GitHub repository](https://github.com/pySTEPS/ERAD-nowcasting-course-2022).
 
