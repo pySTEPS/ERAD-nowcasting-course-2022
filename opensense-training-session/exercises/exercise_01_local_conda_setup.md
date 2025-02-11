@@ -29,6 +29,7 @@ And install pysteps and all dependencies through the `poetry.lock` file that is 
 
 
 ## Check if the installation was successful
+To check if the installation was successful, we are going to import pysteps in your python environment and configure pysteps. The corresponding notebook of this exercise will give you an example of how to do that.
 
 ### Configure pysteps
 
